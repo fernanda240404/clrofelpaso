@@ -1010,8 +1010,38 @@ text-shadow:1px 1px #73757E;
     .container {
         width: 1340px;
     }
-    .panel-video {
-  aspect-ratio: 16 / 9;
+    /* Contenedor en paneles */
+.sec-flex {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Texto */
+.sec-text {
+  flex: 1;
+}
+
+/* Video */
+.panel-video {
+  flex: 1;
+}
+
+.panel-video iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 12px;
+}
+
+/* Responsive: en celular se va abajo */
+@media (max-width: 768px) {
+  .sec-flex {
+    flex-direction: column;
+  }
+
+  .panel-video iframe {
+    height: 220px;
+  }
 }
 
 .panel-video {
