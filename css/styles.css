@@ -1043,15 +1043,30 @@ text-shadow:1px 1px #73757E;
     height: 220px;
   }
 }
+@media (max-width: 768px) {
 
-.panel-video {
-  aspect-ratio: 16 / 9;
+  #sec-1 .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sec-1 article {
+    width: 100%;
+  }
+
+  #sec-1 .panel-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #sec-1 .panel-video iframe {
+    width: 100%;
+    max-width: 420px;
+  }
 }
 
-.panel-video iframe {
-  width: 100%;
-  height: 100%;
-}
 
 }
 
