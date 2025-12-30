@@ -1121,6 +1121,11 @@ text-shadow:1px 1px #73757E;
   cursor: pointer;
 }
 
+.logo img {
+  max-height: 45px;   /* 👈 esto es la clave */
+  width: auto;
+  display: block;
+}
 
 }
 
