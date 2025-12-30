@@ -1078,6 +1078,54 @@ text-shadow:1px 1px #73757E;
     height: 240px !important;
   }
 }
+.header {
+  width: 100%;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo img {
+  height: 55px; /* ajusta si quieres */
+  width: auto;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+/* MENU ICON (MOBILE) */
+.menu-icon {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.logo img {
+  max-height: 45px;   /* 👈 esto es la clave */
+  width: auto;
+  display: block;
+}
 
 }
 
