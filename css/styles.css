@@ -1127,14 +1127,10 @@ text-shadow:1px 1px #73757E;
   display: block;
 }
 
-.hero-text {
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto; /* centra el bloque */
-  padding: 40px 20px;
-}
-article .container {
-  text-align: center;
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 
