@@ -1133,6 +1133,9 @@ text-shadow:1px 1px #73757E;
   margin: 0 auto; /* centra el bloque */
   padding: 40px 20px;
 }
+article .container {
+  text-align: center;
+}
 
 
 }
