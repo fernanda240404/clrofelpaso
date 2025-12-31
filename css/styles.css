@@ -1127,6 +1127,11 @@ text-shadow:1px 1px #73757E;
   display: block;
 }
 
+article .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 }
 
