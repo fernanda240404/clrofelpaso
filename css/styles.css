@@ -1131,6 +1131,17 @@ text-shadow:1px 1px #73757E;
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-top: 20px;
+}
+
+.hero-buttons a {
+  display: inline-flex !important;
+  width: auto !important;
+}
+article .container > p {
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto 0;
 }
 
 
