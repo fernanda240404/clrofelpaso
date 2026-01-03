@@ -18,9 +18,9 @@ html {
     --textaccent3: #484848;
     --txtaccent4: #000;
     --txtaccent5: #E5E5E5;
-    --haccent: #FFCB0F;
+    --haccent: #e4222a;
     --haccent_withOpacity: rgba(255, 203, 15,0.6);
-    --haccent2: #C79E23;
+    --haccent2: #e9e8e8;
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
 }
@@ -1127,6 +1127,11 @@ text-shadow:1px 1px #73757E;
   display: block;
 }
 
+article .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 /* END OF SHEET */
