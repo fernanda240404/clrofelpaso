@@ -520,12 +520,13 @@ text-shadow:1px 1px #73757E;
 #sec-5 article:nth-of-type(2) div.quotetxt{
     color: var(--txtaccent);background-color: var(--haccent);
 }
-#sec-5 article:nth-of-type(2) .arrow:after{
+#sec-5 article:
+nth-of-type(2) .arrow:after{
     border-top-color: var(--haccent);
 }
 #sec-5 .contactUs{
     padding-top: 1.5rem;
-    background-color: var(--haccent_withOpacity);
+    background-color: #0a3161;
     border-bottom: solid 2rem var(--textaccent3);
 }
 #sec-5 .contactUs h1{
